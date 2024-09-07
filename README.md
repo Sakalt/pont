@@ -1,6 +1,6 @@
 # About
 ### [Project homepage](https://mattkeeter.com/projects/pont)
-
+https://chatgpt.com
 `pont` is an online game based on
 [Qwirkle (by Mindware Games)](https://en.wikipedia.org/wiki/Qwirkle)
 
