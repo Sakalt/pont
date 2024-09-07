@@ -19,18 +19,18 @@
 
     <div id="disconnected" hidden="" class="information">
         <p><i class="fas fa-exclamation-triangle"></i>
-            <span id="disconnected_msg">Could not connect to game server</span>
+            <span id="disconnected_msg">ゲームサーバーに接続できませんでした</span>
         </p>
-        <p>Please refresh the page to try again</p>
+        <p>ページを更新して再試行してください</p>
     </div>
 
-    <!-- UI while joining the game -->
+    <!-- ゲームに参加中のUI -->
     <div id="join">
         <form id="join_form">
-            <p><b>Name:</b><input id="name_input" placeholder="John Smith" required=""></p>
-            <p><b>Room:</b><input id="room_input" pattern="^[a-z]+ [a-z]+ [a-z]+$"></p>
-            <p><button id="play_button" type="submit" class="disabled">Loading...</button></p>
-            <p>Colorblind mode: <input type="checkbox" value="0" id="colorblind"></p>
+            <p><b>名前:</b><input id="name_input" placeholder="ジョン・スミス" required=""></p>
+            <p><b>ルーム:</b><input id="room_input" pattern="^[a-z]+ [a-z]+ [a-z]+$"></p>
+            <p><button id="play_button" type="submit" class="disabled">読み込み中...</button></p>
+            <p>色覚障害モード: <input type="checkbox" value="0" id="colorblind"></p>
         </form>
         <div id="err_div" hidden="">
             <i class="fas fa-exclamation-triangle"></i>
@@ -38,16 +38,16 @@
         </div>
     </div>
 
-    <!-- Main game UI -->
+    <!-- メインゲームUI -->
     <div id="playing" hidden="">
-        <p><span class="noselect"><b>Room: </b></span>
+        <p><span class="noselect"><b>ルーム: </b></span>
            <span id="room_name"></span></p>
         <div id="game">
             <div id="svg_div" class="nyt">
                 <svg id="dummy" viewBox="0 0 200 200"></svg>
                 <div id="hand" class="background"></div>
                 <div id="board" class="background"></div>
-                <div id="exchange_div"><p>Drop here to<br>swap pieces</p></div>
+                <div id="exchange_div"><p>ここにドロップして<br>ピースを交換</p></div>
                 <button id="accept_button" class="gameplay" disabled>
                     <i class="fas fa-check"></i>
                 </button>
@@ -70,8 +70,8 @@
                 <table id="score_table">
                     <tbody id="score_rows">
                         <tr><th style="width:20px"></th>
-                            <th style="width:100%">Player</th>
-                            <th style="width:60%">Score</th>
+                            <th style="width:100%">プレイヤー</th>
+                            <th style="width:60%">スコア</th>
                         </tr>
                     </tbody>
                 </table>
@@ -81,21 +81,21 @@
                 <div id="chat_msgs"></div>
                 <div id="chat_input_div">
                     <p><b id="chat_name"></b></p>
-                    <input id="chat_input" placeholder="Send Message...">
+                    <input id="chat_input" placeholder="メッセージを送信...">
                 </div>
             </div>
         </div>
     </div>
 
     <div id="footer">
-        <p>Revision <span id="revhash"></span></p>
+        <p>リビジョン <span id="revhash"></span></p>
         <p>
             <a href="rules.html" target="_blank"><i class="fas fa-book"></i></a>
-            <a href="rules.html" class="padded" target="_blank">Rules</i></a>
+            <a href="rules.html" class="padded" target="_blank">ルール</a>
             <a href="https://mattkeeter.com/projects/pont" target="_blank"><i class="fas fa-home"></i></a>
-            <a href="https://mattkeeter.com/projects/pont" class="padded" target="_blank">About</a>
+            <a href="https://mattkeeter.com/projects/pont" class="padded" target="_blank">について</a>
             <a href="https://github.com/mkeeter/pont" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://github.com/mkeeter/pont" target="_blank">Source</a>
+            <a href="https://github.com/mkeeter/pont" target="_blank">ソース</a>
         </p>
         <p>© 2020 <a href="https://mattkeeter.com" target="_blank">Matthew Keeter</a>&nbsp;
         <a href="https://twitter.com/impraxical" target="_blank"><i class="fab fa-twitter"></i></a>
