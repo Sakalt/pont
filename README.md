@@ -3,7 +3,7 @@
 https://chatgpt.com
 `pont` is an online game based on
 [Qwirkle (by Mindware Games)](https://en.wikipedia.org/wiki/Qwirkle)
-
+https://pont.vercel.app
 ![Screenshot](https://mattkeeter.com/projects/pont/screenshot.png)
 
 Notably, both the client and server are written in Rust;
